@@ -71,37 +71,30 @@
     <Compile Include="VirtualModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="AForge, Version=2.2.4.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\MonoGame\References\AForge.NET\AForge.dll</HintPath>
+    <Reference Include="AForge">
+      <HintPath>..\..\References\AForge.NET\AForge.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Controls, Version=2.2.4.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\MonoGame\References\AForge.NET\AForge.Controls.dll</HintPath>
+    <Reference Include="AForge.Controls">
+      <HintPath>..\..\References\AForge.NET\AForge.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Imaging, Version=2.2.4.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\MonoGame\References\AForge.NET\AForge.Imaging.dll</HintPath>
+    <Reference Include="AForge.Imaging">
+      <HintPath>..\..\References\AForge.NET\AForge.Imaging.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Imaging.IPPrototyper, Version=1.0.1.1, Culture=neutral, PublicKeyToken=c6e9a6d4c86d47e7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\MonoGame\References\AForge.NET\AForge.Imaging.IPPrototyper.dll</HintPath>
+    <Reference Include="AForge.Imaging.IPPrototyper">
+      <HintPath>..\..\References\AForge.NET\AForge.Imaging.IPPrototyper.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Math, Version=2.2.4.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\MonoGame\References\AForge.NET\AForge.Math.dll</HintPath>
+    <Reference Include="AForge.Math">
+      <HintPath>..\..\References\AForge.NET\AForge.Math.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Video, Version=2.2.4.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\MonoGame\References\AForge.NET\AForge.Video.dll</HintPath>
+    <Reference Include="AForge.Video">
+      <HintPath>..\..\References\AForge.NET\AForge.Video.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Video.DirectShow, Version=2.2.4.1, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\MonoGame\References\AForge.NET\AForge.Video.DirectShow.dll</HintPath>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\..\References\AForge.NET\AForge.Video.DirectShow.dll</HintPath>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.6.0.1425, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+      <HintPath>..\..\References\MonoGame\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
